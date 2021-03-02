@@ -1,4 +1,11 @@
+let nombre;
+
 function mostrar()
 {
-	alert("tres");
+	do {
+		nombre = prompt("Ingrese su nombre:").toLocaleLowerCase();
+	} while(nombre != null) {
+		
+	}
 }
+
